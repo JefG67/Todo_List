@@ -1,0 +1,29 @@
+
+
+#btn{
+    width:700px;
+    margin-bottom: 20px;
+cursor: pointer;
+}
+
+#todoCards{
+    position: relative;
+    padding: 15px;
+}
+
+#todoCard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vh;
+}
+
+.delBtn{
+    position: relative;
+    left : -20px;
+    top : -20px;
+    width: 15px;
+    height: 15px;
+   cursor: pointer;
+    
+
+}
