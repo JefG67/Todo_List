@@ -5,17 +5,20 @@
     display: flex;
     padding: 15px;
     flex-wrap: wrap;
+    
 }
 
 #todoCard {
     display: flex;
     flex-wrap: wrap;
     width: 100vh;
+    
+    
 }
 
 .delBtn{
     position: relative;
-    left : -20px;
+    left : -28px;
     top : -20px;
     width: 15px;
     height: 15px;
@@ -26,4 +29,12 @@
     width:700px;
     margin-bottom: 20px;
     cursor: pointer;
+}
+
+.task{
+    background-color: rgb(216, 75, 75);
+    border-radius: 4px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;;
+    text-align: center;
+    border: dashed rgb(8, 8, 8);
 }
